@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary: #118c4f;
+  --bkg:#f5f8ff;
+
+  --shadow-normal:5px 13px 11px 4px rgba(0,0,0,0.27);
+  --shadow-hover:5px 13px 11px 4px rgba(0,0,0,0.6);
+
+}
+ul{
+  list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+body {
+  margin: 0;
+  font-family:'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
