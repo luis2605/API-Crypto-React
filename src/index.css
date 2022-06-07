@@ -6,9 +6,17 @@
   box-sizing: border-box;
 }
 
+.App{
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 :root{
   --primary: #118c4f;
   --bkg:#f5f8ff;
+
+  --ftn-gray:#838084;
 
   --shadow-normal:5px 13px 11px 4px rgba(0,0,0,0.27);
   --shadow-hover:5px 13px 11px 4px rgba(0,0,0,0.6);

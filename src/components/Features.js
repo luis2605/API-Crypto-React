@@ -8,7 +8,12 @@ import axios from 'axios'
 
 function Features() {
 
-    const url='https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=6&page=1&sparkline=false' //'https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=25&page=1&sparkline=false';
+const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=25&page=1&sparkline=false';
+
+ //const url ='https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=6&page=1&sparkline=false';
+  
+ 
+
 
  
 
@@ -24,7 +29,8 @@ function Features() {
 
         
     }, [] )
-    console.log(data)
+
+   
     if(!data) return null
 
     const dataInfo = (data.map(item =>{
@@ -53,8 +59,8 @@ return(
 
         <Left>
             <h2>Explore top Crypto's Like Bitcoin, Ethereum , and Dogecoin</h2>
-            <p>See all available assets: Cryptocurrency and NFT's</p>
-            <BtnSeeMore> See More Coins</BtnSeeMore>
+            <p  >See all available assets: Cryptocurrency and NFT's</p>
+            <BtnSeeMore > See More Coins</BtnSeeMore>
 
 
         </Left>

@@ -16,7 +16,7 @@ function NavBar() {
     
     }
 
-    const show = {  right: showBar?  "-100%": "0"}
+    const show = {  right: showBar?  "-100%" : "0"}
     const showIcon = { display:showBar? "" : "none"}
     const iconShow = { display:showBar? "none" : ""}
     
@@ -26,7 +26,7 @@ function NavBar() {
         <Container>
             <h1>De<span>Fi</span></h1>
             
-            <NavMenu style={show}  >
+            <NavMenu style={show }  >
                 <li>
                     <a href='/'>Home</a>
                 </li>
@@ -66,7 +66,8 @@ background:#fff;
 position:sticky;
 top:0;
 left:0;
-z-index:10;
+z-index:2;
+
 
 
 `
@@ -89,6 +90,8 @@ h1{
 const NavMenu=styledComponents.ul`
 display:flex;
 transition:.4s;
+
+
 
 li{
     margin:0 .5em;
